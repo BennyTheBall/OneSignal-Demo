@@ -62,7 +62,7 @@ var app = {
         iosSettings["kOSSettingsKeyInAppLaunchURL"] = true;
 
         window.plugins.OneSignal
-          .startInit("b2f7f966-d8cc-11e4-bed1-df8f05be55ba")
+          .startInit("d04f806e-bbdc-424b-bd75-046cfab55bd7")
           .handleNotificationReceived(function(jsonData) {
             alert("Notification received: \n" + JSON.stringify(jsonData));
             console.log('Did I receive a notification: ' + JSON.stringify(jsonData));
