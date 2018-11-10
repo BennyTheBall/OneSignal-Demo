@@ -8,6 +8,10 @@
     <author email="support@onesignal.com" href="https://onesignal.com">
         OneSignal Team
     </author>
+
+    <preference name="android-minSdkVersion" value="15" />
+    <preference name="phonegap-version" value="cli-8.0.0" />
+    <preference name="android-build-tool" value="gradle" />
     
     <content src="index.html" />
     
